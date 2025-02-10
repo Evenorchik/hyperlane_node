@@ -62,7 +62,7 @@ install_node() {
 
     echo -e "Node successfully installed!"
     echo -e "To view logs, use: docker logs -f hyperlane"
-    echo -e "script by evenor.eth"
+    echo -e "script by evenor.eth - https://t.me/evenoreth"
     echo -e "Displaying logs..."
     sleep 2
     docker logs -f hyperlane
@@ -72,7 +72,7 @@ install_node() {
 view_logs() {
     echo -e "${RED}Viewing logs...${NC}"
     docker logs -f hyperlane
-    echo -e "script by evenor.eth"
+    echo -e "script by evenor.eth - https://t.me/evenoreth"
 }
 
 # Remove Node
@@ -89,7 +89,7 @@ remove_node() {
     fi
 
     echo -e "Node successfully removed!"
-    echo -e "script by evenor.eth"
+    echo -e "script by evenor.eth - https://t.me/evenoreth"
 }
 
 # Main Menu
