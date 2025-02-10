@@ -96,7 +96,7 @@ remove_node() {
 main_menu() {
     while true; do
         display_ascii
-        echo -e "script by evenor.eth"
+        echo -e "script by evenor.eth - https://t.me/evenoreth"
         echo -e "1) Install Node"
         echo -e "2) View Logs"
         echo -e "3) Remove Node"
